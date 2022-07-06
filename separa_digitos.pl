@@ -1,5 +1,4 @@
-separa_digitos(,X).
-separa_digitos(X,Y):- X is﻿digitos(0,Ac,Ac).
+﻿digitos(0,Ac,Ac).
 
 digitos(X, Ac, L) :-  % o acumulador é usado para que seja iniciado como lista vazia
 	
